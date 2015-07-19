@@ -59,7 +59,7 @@ Downloads/io.cordova.hellocordova_0.0.1_armhf.click
 
 We are done. The app should now appear in your list of installed apps. Start the app and a blinking "DEVICE IS READY" should appear.
 
- <img alt="how the helloworld app looks like in the browser" src="@routes.Assets.at("images/ubuntuHelloworldPhone.png")">
+ <img alt="How the helloworld app looks like in the browser" src="http://physalis-cms.s3.amazonaws.com/images/ubuntu-helloworld/ubuntuHelloworldPhone.png")">
 		
 		 
 <b>Note:</b> If you are porting an app and have no Ubuntu phone to test it, you can also ask the nice folks at <a href="irc://irc.freenode.net/ubuntu-app-devel">#ubuntu-app-devel</a> to test it for you.
