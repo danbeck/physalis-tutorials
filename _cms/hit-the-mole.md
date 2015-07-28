@@ -13,6 +13,12 @@ You can try out the game here: <a href="Link to Amazon s3">http://daniel-beck.or
 Let's jump right in by looking at the HTML structure of the game.
 
 <h3>The game structure</h3>
+The game is made of several images layered are on top of each other: The background holds the background picture: 
+the turf and the mole holes. The mole hole are placed over the background. The mole are displayed before 
+the mole hole.
+
+
+Corresponding to that, here the HTML structure of the game.
 The HTML structure of the game looks as follows:
 
 ```html
@@ -22,8 +28,8 @@ The HTML structure of the game looks as follows:
 </html>
 ```
 
-The #background div holds the background picture: the turf and the mole holes.
-The #points div shows the player's score.
+- The #background div holds the background picture: the turf and the mole holes.
+- The #points div shows the player's score.
 The #mole div contains the animated mole sprite. We will use on PNG file containing 8 different sprites to create the animation:
 
 
