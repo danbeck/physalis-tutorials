@@ -1,12 +1,33 @@
 ---
 layout: default
 ---
-<h1>Deploying an App on Ubuntu Touch</h1>
+<h1>Building a Game using DOM and Javascript</h1>
 
-_In this article, we show how to install a click file on a Ubuntu Touch device. We deploy the sample 
-App we created in <a href="/training/ubuntu-helloworld/">the hello world tutorial.</a>_
+_Crowds of hungry Moles are attacking! In this tutorial, we build a Hit-the-Mole game, using just DOM 
+and javascript. Follow us along with this tutorial and you'll have you first game done in no time!_ 
 
-<h3>Setting up the phablet shell</h3>
+
+<h3>The game</h3>
+You can try out the game here: <a href="Link to Amazon s3">http://daniel-beck.org/hit-the-mole</a>.
+
+Let's jump right in by looking at the HTML structure of the game.
+
+<h3>The game structure</h3>
+The HTML structure of the game looks as follows:
+
+```html
+<html>
+<div id="background">
+</div>
+</html>
+```
+
+The #background div holds the background picture: the turf and the mole holes.
+The #points div shows the player's score.
+The #mole div contains the animated mole sprite. We will use on PNG file containing 8 different sprites to create the animation:
+
+
+
 We install the click file to a USB connected phone by using the command line. Make sure the developer mode is enabled!
  You can check this in the settings menu: Settings > About Phone > Developer Mode.
 
