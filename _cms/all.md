@@ -12,11 +12,20 @@ layout: default
 <a href="/training/ubuntu-helloworld">Deploying an App on Ubuntu Touch</a>
 
 
-<h3>Creating games with just Javascript and DOM</h3>
+<h3>Developing Games</h3>
 
-Hit the Mole: to come.
+<a href="/training/hit-the-mole">Building a Hit-the-Mole Game using DOM and Javascript</a>
 
+<h3>In work - game development</h3>
 
-<h3>Creating Games with Javascript and Canvas</h3>
+* Creating a game using canvas
+* Creating a game using phaser
+* Creating a point&click adventure game
 
-<h3>Creating Games with Javascript and Phaser</h3>
+<h3>In work - HTML5 Apps development</h3>
+
+* Developing with ubuntu HTML5
+* Developing with jquery mobile
+* Developing an App with Ionic
+* Developing an App with bootstrap
+ 
