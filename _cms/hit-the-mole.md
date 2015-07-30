@@ -26,7 +26,7 @@ We begin with the following HTML, which will form the ground structure of our ga
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <!-- Makes sure the game looks good when displayed on a handheld--->
+    <!-- Makes sure the game looks good when displayed on a handheld -->
     <meta name="viewport" content="width=device-width">
     <title>Hit the Mole!</title>
     <link href="css/hitTheMole.css" rel="stylesheet"/>
