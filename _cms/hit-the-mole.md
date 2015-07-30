@@ -6,6 +6,7 @@ layout: default
 _Crowds of hungry Moles are attacking! In this tutorial, we build a Hit-the-Mole game, using just DOM
 and javascript. Follow us along with this tutorial and you'll have you first game done in no time!_
 
+[TOC]
 
 <h3>The game</h3>
 You can try out the game here: <a href="Link to Amazon s3">http://daniel-beck.org/hit-the-mole</a>.
@@ -52,4 +53,9 @@ We begin with the following HTML, which will form the ground structure of our ga
 </html>
 ```
 
-The references files _css/hitTheMole.css_ and _js/hitTheMole.js_ can be left empty now.  
+The javascript file _js/hitTheMole.js_ will contain the game's logic. We left it empty for now. 
+We first begin by styling the game with CSS.
+
+<h3>Positioning the game elements</h3>
+Unlike webpages, where elements are usualy positioned relatively, in games we want 
+*1)pi xel perfect positioning. 
