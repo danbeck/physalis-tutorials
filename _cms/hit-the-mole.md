@@ -13,26 +13,28 @@ You can try out the game here: <a href="Link to Amazon s3">http://daniel-beck.or
 Let's jump right in by looking at the HTML structure of the game.
 
 <h3>The game structure</h3>
-The game is made of several images layered are on top of each other: The background image holds the background picture (the turf and the sky). The mole hole background is placed over the background image. The mole is display on top of the mole hole background. The mole hides behind the hile foreground. Then the mole was hit, stars are shown at the top of the pile of layered.
+The game is made of several images layered are on top of each other:
 
-Here is an image.
+ <img alt="How the helloworld app looks like in the browser" src="http://physalis-cms.s3.amazonaws.com/images/hit-the-mole/MoleIn3D.png")">
 
-The HTML reflects the layered structure described above:
+The background image holds the background picture (the turf and the sky). The mole holes are made of two images: the background (which is black) and the foreground, so that the mole can appear in between. Finally, when the mole was hit, stars are shown over the mole.
+
+We setup up the followin gHTML reflects the layered structure described above:
 
 ```html
 <html>
   <body>
      <img id="background" src="images/background.png" alt="background"/>
-        <div id="hole1" class="hole"></div>
-        <div id="hole2" class="hole"/></div>
-        <div id="hole3" class="hole"/></div>
-        <div id="hole4" class="hole"/></div>
-        <div id="hole5" class="hole"/></div>
         <div id="holeBackground1" class="holeBackground"/></div>
+        <div id="hole1" class="hole"></div>
         <div id="holeBackground2" class="holeBackground"/></div>
+        <div id="hole2" class="hole"/></div>
         <div id="holeBackground3" class="holeBackground"/></div>
+        <div id="hole3" class="hole"/></div>
         <div id="holeBackground4" class="holeBackground"/></div>
+        <div id="hole4" class="hole"/></div>
         <div id="holeBackground5" class="holeBackground"/></div>
+        <div id="hole5" class="hole"/></div>
         <div id="mole"></div>
         <div id="moleSprite"></div>
         <div id="stars"></div>
