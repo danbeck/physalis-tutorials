@@ -3,8 +3,8 @@ layout: default
 ---
 <h1>Building a Game using DOM and Javascript</h1>
 
-_Crowds of hungry Moles are attacking! In this tutorial, we build a Hit-the-Mole game, using just DOM 
-and javascript. Follow us along with this tutorial and you'll have you first game done in no time!_ 
+_Crowds of hungry Moles are attacking! In this tutorial, we build a Hit-the-Mole game, using just DOM
+and javascript. Follow us along with this tutorial and you'll have you first game done in no time!_
 
 
 <h3>The game</h3>
@@ -13,60 +13,30 @@ You can try out the game here: <a href="Link to Amazon s3">http://daniel-beck.or
 Let's jump right in by looking at the HTML structure of the game.
 
 <h3>The game structure</h3>
-The game is made of several images layered are on top of each other: The background holds the background picture: 
-the turf and the mole holes. The mole hole are placed over the background. The mole are displayed before 
-the mole hole.
+The game is made of several images layered are on top of each other: The background image holds the background picture (the turf and the sky). The mole hole background is placed over the background image. The mole is display on top of the mole hole background. The mole hides behind the hile foreground. Then the mole was hit, stars are shown at the top of the pile of layered.
 
+Here is an image.
 
-Corresponding to that, here the HTML structure of the game.
-The HTML structure of the game looks as follows:
+The HTML reflects the layered structure described above:
 
 ```html
 <html>
-<div id="background">
-</div>
+  <body>
+     <img id="background" src="images/background.png" alt="background"/>
+        <div id="hole1" class="hole"></div>
+        <div id="hole2" class="hole"/></div>
+        <div id="hole3" class="hole"/></div>
+        <div id="hole4" class="hole"/></div>
+        <div id="hole5" class="hole"/></div>
+        <div id="holeBackground1" class="holeBackground"/></div>
+        <div id="holeBackground2" class="holeBackground"/></div>
+        <div id="holeBackground3" class="holeBackground"/></div>
+        <div id="holeBackground4" class="holeBackground"/></div>
+        <div id="holeBackground5" class="holeBackground"/></div>
+        <div id="mole"></div>
+        <div id="moleSprite"></div>
+        <div id="stars"></div>
+  </body>
+  </div>
 </html>
 ```
-
-- The #background div holds the background picture: the turf and the mole holes.
-- The #points div shows the player's score.
-The #mole div contains the animated mole sprite. We will use on PNG file containing 8 different sprites to create the animation:
-
-
-
-We install the click file to a USB connected phone by using the command line. Make sure the developer mode is enabled!
- You can check this in the settings menu: Settings > About Phone > Developer Mode.
-
-Install the phablet-tools and create a ssh public key. This is needed the phablet-shell uses ssh to communicate 
-with the device . 
-
-```bash
-sudo apt-get install phablet-tools
-ssh-keygen
-```
-
-Push the click file to your phone as follows:
-
-```bash
-adb push io.cordova.hellocordova_0.0.1_armhf.click /home/phablet/Downloads/
-```
-		
-Then start the phablet-shell to login on the ubuntu phone.
-
-```bash
-phablet-shell
-```	
-
-From this shell, you can install the click file:
-
-```bash
-phablet@@ubuntu-phablet:~# pkcon install-local --allow-untrusted \
-Downloads/io.cordova.hellocordova_0.0.1_armhf.click 
-```
-
-We are done. The app should now appear in your list of installed apps. Start the app and a blinking _DEVICE IS READY_ should appear.
-
- <img alt="How the helloworld app looks like in the browser" src="http://physalis-cms.s3.amazonaws.com/images/ubuntu-helloworld/ubuntuHelloworldPhone.png")">
-		
-		 
-<b>Note:</b> If you are porting an app and have no Ubuntu phone to test it, you can also ask the nice folks at <a href="irc://irc.freenode.net/ubuntu-app-devel">#ubuntu-app-devel</a> to test it for you.
