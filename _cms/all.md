@@ -17,6 +17,6 @@ layout: default
 Hit the Mole: to come.
 
 
-<h3>Creating games with Javascript and Canvas</h3>
+<h3>Creating Games with Javascript and Canvas</h3>
 
-<h3>Creating games with Javascript and Phaser</h3>
+<h3>Creating Games with Javascript and Phaser</h3>
