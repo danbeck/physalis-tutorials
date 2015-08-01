@@ -3,8 +3,7 @@ layout: default
 ---
 <h1>Building a Game using DOM and Javascript</h1>
 
-_Crowds of hungry Moles are attacking! In this tutorial, we build a Hit-the-Mole game, using just DOM
-and javascript. Follow us along with this tutorial and you'll have you first game done in no time!_
+_Crowds of hungry Moles are attacking! In this tutorial, we build a Hit-the-Mole game for mobile devices, using just DOM and javascript. Follow us along with this tutorial and you'll have your first game done in no time!_
 
 [TOC]
 
