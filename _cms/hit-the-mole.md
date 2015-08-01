@@ -18,9 +18,10 @@ The game is made of several images layered are on top of each other:
 
  <img alt="How the helloworld app looks like in the browser" src="http://physalis-cms.s3.amazonaws.com/images/hit-the-mole/MoleIn3D.png")">
 
-The background image holds the background picture (the turf and the sky). The mole holes are made of two images: the background (which is black) and the foreground, so that the mole can appear in between. Finally, when the mole was hit by the player, stars are shown on top.
+Like shown in the picture above, the background layer is at the bottom of the pile. It holds a picture containing the turf and the sky. The mole holes are made of two images: the background (which is black) and the foreground, so that the mole can appear in between. Finally, when the mole was hit by the player, stars are shown on top.
 
-We begin with the following HTML, which will form the ground structure of our game: 
+The layers 
+The layers described above corre out game with the  the following HTML, which will form the ground structure of our game: 
 
 ```html
 <!DOCTYPE html>
